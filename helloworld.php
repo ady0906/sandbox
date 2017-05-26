@@ -3,11 +3,28 @@
 
 <html lang="en">
   <head>
-    <title>Hello World</title>
+    <title>String functions</title>
   </head>
   <body>
-    <?php echo "Hello World!"; ?><br />
-    <?php echo "Hello" . " World!"; ?><br />
-    <?php echo 2 + 3; ?>
+    <?php
+    $first = "The quick brown fox";
+    $second = " jumped over the lazy dog";
+
+    $third = $first;
+    $third .= $second;
+    echo $third;
+    echo "<br />";
+    echo "<br />";
+     $var1 = 10;
+     echo $var1;
+     echo "<br />";
+     $var1 = 100;
+     echo $var1;
+    ?>
+    <br />
+    Lowercase: <?php echo strtolower($third); ?> <br />
+    Uppercase: <?php echo strtoupper($third); ?> <br />
+    Uppercase first: <?php echo ucfirst($third); ?> <br />
+    Uppercase words: <?php echo ucwords($third); ?> <br />
   </body>
 </html>
