@@ -64,6 +64,49 @@
     Floor: floor($var) <br />
     <br />
     Can figure out what kind of variables we're dealing with by using methods like is_int, is_float, is_numeric
+    <br />
+    <br />
+    <br />
+    Define arrays by going $var = array();<br />
+    PHP zero-indexed with regards to arrays? YES<br />
+    Combine echo and print_r($var) method to debug by showing plain-text version of array or object<br />
+    <?php $mixed = array(6, "fox", "dog", array("x", "y", "z")); ?>
+    <pre>
+      <?php echo print_r($mixed) ?>
+    </pre>
+    <br />
+    More recent versions of PHP also accept conventional square brackets notation => shorter<br />
+    <br />
+    <br />
+    Associative arrays are essentially like objects in JS<br />
+    Create those by using same array() function but using key values pairs inside of it: keys point to values with big arrows like => with commas separating pairs<br />
+    <br />
+    <br />
+    Array functions:<br />
+    Count: count($numbers); <br />
+    Max value: max($numbers); <br />
+    Min value: min($numbers); <br />
+    Sort in ascending order: sort($numbers); <br />
+    Reverse sort in descending order: rsort($numbers); <br />
+    Implode will show elements of array in string form separated by argument like a star <br />
+    Explode will divide string up based on argument and turn it into an array => extremely useful when working with comma separated list<br />
+    15 in array: in_array(15, $numbers); => returns boolean like 1 or 0 for true or false <br />
+    array_unshift, array_push => look for different functions in documentation <br />
+    <br />
+    <br />
+    Booleans: <br />
+    Use is_bool function to find out if variable is boolean<br />
+    PHP if statement syntax seems to be pretty much identical to JS<br />
+    Empty in PHP: "", null, 0, 0.0, "0", false, array()<br />
+    EMPTY IS A LEADING CAUSE OF BUGS IN PHP<br />
+    type juggling when PHP converts different types on the fly, called casting when we do it deliberately<br />
+    <br />
+    <br />
+    <br />
+    Constants can't change value (duh) and are written in ALL CAPS
+
+
+
 
   </body>
 </html>
