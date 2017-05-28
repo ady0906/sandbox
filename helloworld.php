@@ -110,7 +110,18 @@
     <br />
     Conditional statements if and elseif (small difference in syntax)<br />
     Compare operators: '<' '>' '<=' '>=' '<>' <br />
-    if statements used way more often that switch statements, which are mostly adequate for compact logic
+    if statements used way more often that switch statements, which are mostly adequate for compact logic<br />
+    Gotta add break to switch statements to prevent annoying behaviour<br />
+    <br />
+    <br />
+    <br />
+    Looking at loops:<br />
+    Essentially like JS, not much to it!<br />
+    foreach loops:<br />
+    foreach ($array as $value) {
+      statement;
+    }
+
 
 
 
