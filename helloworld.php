@@ -103,7 +103,14 @@
     <br />
     <br />
     <br />
-    Constants can't change value (duh) and are written in ALL CAPS
+    Constants can't change value (duh) and are written in ALL CAPS <br />
+    define("MAX_WIDTH", 980); <br />
+    <br />
+    <br />
+    <br />
+    Conditional statements if and elseif (small difference in syntax)<br />
+    Compare operators: '<' '>' '<=' '>=' '<>' <br />
+    if statements used way more often that switch statements, which are mostly adequate for compact logic
 
 
 
