@@ -37,5 +37,33 @@
     Make susbtring: <?php echo substr($third, 5, 10); ?><br />
     Find position: <?php echo strpos($third, "brown"); ?><br />
     Find character: <?php echo strchr($third, "z"); ?><br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <?php
+      $var1 = 3;
+      $var2 = 4;
+    ?>
+    Absolute value: abs <br />
+    Exponential: pow <br />
+    Square root: sqrt <br />
+    Modulo: fmod(20, 7) <br />
+    Random: rand <br />
+    Random(min, max) <br />
+    <br />
+    += <br />
+    -= <br />
+    *= <br />
+    /= <br />
+    <br />
+    <br />
+    Round: round($var) <br />
+    Ceiling: ceil($var) <br />
+    Floor: floor($var) <br />
+    <br />
+    Can figure out what kind of variables we're dealing with by using methods like is_int, is_float, is_numeric
+
   </body>
 </html>
